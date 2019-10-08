@@ -4,15 +4,18 @@ Hey!
 
 Here I'm creating my portfolio as front-end developer. 
 
+<img src="./src/assets/images/alex-1.png" alt="Portrait of Alexandra Jara" height="120px">
+
+
 ## Sure, sure... but who are you? ##
 
 This is developed by [Alexandra Jara](https://github.com/alexandrajaramz). I started my journey with web development in June 19, 2019, doing Adalab's bootcamp. This is the very first version of my website, and for sure I'm planning to do more versions of it when I learn more :)
 
 You can find me also on: 
 
--[LinkedIn](https://www.linkedin.com/in/alexandrajaramz/)
--[Twitter (only spanish)](https://twitter.com/alexandrajaramz)
--[Gmail: alexandra.jara.mz@gmail.com](alexandra.jara.mz@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/alexandrajaramz/)
+- [Twitter (spanish)](https://twitter.com/alexandrajaramz)
+- Gmail: alexandra.jara.mz@gmail.com
 
 ## How to use ##
 
