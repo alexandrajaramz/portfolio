@@ -2,10 +2,7 @@
 
 Hey!
 
-Here I'm creating my portfolio as front-end developer. 
-
-<img src="./src/assets/images/alex-1.png" alt="Portrait of Alexandra Jara" height="120px">
-
+Here I'm creating my portfolio as front-end developer. <img src="./src/assets/images/alex-1.png" alt="Portrait of Alexandra Jara" height="120px">
 
 ## Sure, sure... but who are you? ##
 
