@@ -1,6 +1,6 @@
 # Portfolio | Alexandra Jara
 
-<img src="./src/assets/images/alex-1.png" alt="Portrait of Alexandra Jara" height="120px">  Hey! Here I'm creating my portfolio as front-end developer. 
+<img src="./src/images/alex-1.png" alt="Portrait of Alexandra Jara" height="120px">  Hey! Here I'm creating my portfolio as front-end developer. 
 
 ## Sure, sure... but who are you? ##
 

@@ -1,0 +1,26 @@
+.preTitleEffect {
+  letter-spacing: .15em;
+  animation-name: appear;
+  animation-timing-function: ease;
+  animation-delay: 3s;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; }
+
+@keyframes appear {
+  from {
+    color: #C61F3E; }
+  to {
+    color: #ffa500; } }
+
+/*     <div className="heroTextContainer">
+          <h1 className="fontPreTitle preTitleEffect">
+            Junior Front-End Developer
+          </h1>
+          <h2 className="fontTitle typewriter">Soy Irene Mateo.</h2>
+          <img
+            className="photoMe"
+            src={photoMe}
+            alt="Irene Mateo, Junior FrontEnd Developer"
+          />
+        </div> */
