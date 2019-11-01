@@ -1,0 +1,15 @@
+.header-nav__list {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #86687E;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 600;
+
+  a{
+    cursor: pointer;
+    color: #dcdfe6;
+    text-decoration: none;
+    background-color: #86687E;
+  }
+}

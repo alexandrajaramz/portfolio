@@ -1,0 +1,15 @@
+.about__bio {
+  font-family: 'Josefin Slab', serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: rgb(102, 78, 96);
+
+  @media all and (min-width: 480px){
+     font-size: 22px;
+  }
+}
+
+.about__img {
+  width: 200px;
+  border-radius: 50%;
+}
