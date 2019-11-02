@@ -1,7 +1,10 @@
 .about__bio {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-family: 'Josefin Slab', serif;
   font-weight: 600;
-  font-size: 18px;
   color: rgb(102, 78, 96);
 
   @media all and (min-width: 480px){
@@ -10,6 +13,31 @@
 }
 
 .about__img {
-  width: 200px;
+  margin-top: 1em;
+  width: 175px;
   border-radius: 50%;
 }
+
+.about__text-wrapper {
+  margin-top: 2em;
+  .about__quote {
+    font-style: italic;
+    font-size: 18px;
+  }
+  .about__grace {
+    text-align: right;
+    font-weight: 800;
+  }
+}
+
+.about__pitch-wrapper {
+  font-size: 20px;
+  .future-quote {
+    font-style: italic;
+  }
+  .about__pitch-element{
+    padding-top: 1em;
+    text-align: justify;
+  }
+}
+
