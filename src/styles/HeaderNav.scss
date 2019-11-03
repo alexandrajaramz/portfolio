@@ -1,3 +1,9 @@
+.header-nav {
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
+}
+
 .header-nav__list {
   padding: 5px;
   display: flex;
@@ -16,10 +22,6 @@
 
 .nav__list-item{
   font-size: 18px;
-}
-
-.nav-about {
-  margin-left: 1em;
 }
 
 .nav-contact {

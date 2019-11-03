@@ -1,6 +1,7 @@
 .header-hero_wrapper {
   background-image: url('../images/bg.jpg');
   background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
   font-family: 'Josefin Slab', serif;
   color: rgb(102, 78, 96);
@@ -9,18 +10,12 @@
   align-items: center;
   justify-content: space-around;
 }
-//borrar al quitar color fondo en app
+
 a {
-  background-color: transparent;
   cursor: pointer;
 }
 
-.hero__text-wrapper {
-  background-color: transparent;
-}
-
 .hero_name {
-  background-color: transparent;
   font-size: 34px;
   font-weight: 900;
 
@@ -37,7 +32,6 @@ a {
 }
 
 .appear-front {
-  background-color: transparent;
   opacity: 1;
   animation: appear-type 1s;
   @keyframes appear-type {
@@ -49,7 +43,6 @@ a {
 }
 .hero_frontend {
   max-width: 190px;
-  background-color: transparent;
   font-size: 22px;
   animation: typing-text 2.2s steps(20);
   overflow:hidden; 
@@ -63,5 +56,5 @@ a {
 
 .down-img {
   height: 50px;
-  background-color: transparent;
+
 }
