@@ -4,6 +4,16 @@ const SocialNetworks = () => {
   return(
     <ul className="social-networks">
       <li>
+        <span className="social-mail">
+          <a 
+            className="social-to" 
+            href="mailto:alexandra.jara.mz@gmail.com"
+            target="_blank" rel="noopener noreferrer">
+            Drop me an email
+          </a>
+        </span>
+      </li>
+      <li>
         <a 
           className="social-to" 
           href="https://www.linkedin.com/in/alexandrajaramz"

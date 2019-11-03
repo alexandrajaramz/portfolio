@@ -1,25 +1,18 @@
 import React from 'react';
 import logo from '../images/logo-A.png';
-import SocialNetworks from './SocialNetworks';
+import '../styles/Footer.scss';
 
 const Footer = () => {
   return (
     <footer className="page__footer">
-      <p className="footer-copy">&copy; 2019 Alexandra Jara</p>
+      <div className="footer-copyright">
+        <span className="footer-copy">&copy;</span>
+        <span className="footer-year">2019</span>
+      </div>
       <div className="footer-logo_wrapper">
-        <img src={logo} width="40px" alt="Alexandra's logo" className="footer-logo"/>
+        <img src={logo} alt="Alexandra's logo" className="footer-logo"/>
       </div>
-      <div className="footer-social">
-        <span className="social-mail">
-          <a 
-            className="social-to" 
-            href="mailto:alexandra.jara.mz@gmail.com"
-            target="_blank" rel="noopener noreferrer">
-            Drop me an email
-          </a>
-        </span>
-        <SocialNetworks />
-      </div>
+      <p className="footer-name">Alexandra Jara</p>
     </footer>
   );
 }

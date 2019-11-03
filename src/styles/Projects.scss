@@ -1,0 +1,26 @@
+.main-projects {
+  background-color: #dcdfe6;
+  padding: 1.8em;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 600;
+  color: #664e60;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1em;
+
+  @media all and (min-width: 480px){
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.projects__title {
+  font-size: 36px;
+  text-align: center;
+  padding-bottom: 0.5em;
+}
+
+.projects__wrapper {
+  width: 245px;
+  height: 150px;
+  background-color: rgba(127, 255, 212, 0.383);
+}
