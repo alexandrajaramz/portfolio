@@ -1,0 +1,109 @@
+.main-skills {
+  background-color: #92778b;
+  color: #dcdfe6;
+  padding: 1.8em;
+  min-height: 270px;
+  font-family: 'Josefin Slab', serif;
+  font-weight: bolder;
+}
+
+.skills__title {
+  font-size: 36px;
+  text-align: center;
+  padding-bottom: 0.5em;
+}
+
+.skills__hardskills {
+  position: relative;
+}
+
+.hardskills-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.html, .css, .javascript {
+  font-size: 3.4em;
+  font-family: 'Cuprum', sans-serif;
+  font-weight: 700;
+}
+
+.html {
+  letter-spacing: -.06em;
+  transform: translateX(0.15em);
+}
+
+.css {
+  letter-spacing: -.02em;
+  transform:
+    translateX(3.2em)
+    translateY(0.45em)
+    rotate(90deg);
+}
+
+.sass {
+  font-size: 1.2em;
+  letter-spacing: -.05em;
+  transform:
+    translateX(7.3em)
+    translateY(1.2em)
+    rotate(90deg);
+}
+
+.flexbox {
+  font-size: 1.2em;
+  letter-spacing: .02em;
+  transform:
+    translateX(7.3em)
+    translateY(2.5em)
+    rotate(90deg);
+}
+
+.grid {
+  font-size: 1.2em;
+  transform:
+    translateX(7.25em)
+    translateY(3.7em)
+    rotate(90deg);
+}
+
+.javascript {
+  font-size: 3.2em;
+  letter-spacing: -.05em;
+  transform:
+    translateX(0.7em)
+    translateY(2em);
+}
+
+.react {
+  font-size: 2.1em;
+  transform:
+    translateX(1.2em)
+    translateY(2.35em)
+}
+
+.npm {
+  font-size: 1.4em;
+  letter-spacing: .15em;
+  transform:
+    translateX(-0.5em)
+    translateY(4.5em)
+    rotate(90deg);
+}
+
+.git {
+  font-size: 1.4em;
+  letter-spacing: .15em;
+  transform:
+    translateX(0.5em)
+    translateY(2.44em);
+}
+
+.agile {
+  font-size: 1.4em;
+  letter-spacing: .08em;
+  transform:
+    translateX(2.9em)
+    translateY(2.45em)
+}
