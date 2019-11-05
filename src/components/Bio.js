@@ -30,7 +30,7 @@ const Bio = () => {
             My profesional background includes sales and customer support, wich taught me to enjoy teamwork. I'm also a vet nurse, and working in a hospital I learnt to be organized and make clear priority tasks.
           </p>
           <p className="about__pitch-element pitch-job">
-            I'm currently looking for my first job as developer, so if you want to met me please get in touch ;)
+            I'm currently looking for my first job as developer, so if you want to meet me please get in touch ;)
           </p>
         </div>
         </div>

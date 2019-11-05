@@ -22,12 +22,18 @@
   font-size: 1.1em;
 }
 
-.footer-name {
-  text-transform: uppercase;
-  font-size: 1em;
-  font-weight: 900;
+.footer-name-wrapper {
+  display: flex;
+  align-items: center;
 }
 
 .footer-logo {
   width: 2.2em;
+  padding-right: 0.5em;
+}
+
+.footer-name {
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 900;
 }

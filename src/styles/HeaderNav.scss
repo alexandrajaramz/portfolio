@@ -7,7 +7,7 @@
 .header-nav__list {
   padding: 5px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: #86687E;
   font-family: 'Josefin Slab', serif;
   font-weight: 600;
@@ -21,9 +21,7 @@
 }
 
 .nav__list-item{
-  font-size: 18px;
-}
-
-.nav-contact {
-  margin-right: 1em;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: .05em;
 }

@@ -9,13 +9,6 @@
   font-family: 'Josefin Slab', serif;
   font-weight: 600;
   color: #664e60;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 1em;
-
-  @media all and (min-width: 480px){
-    grid-template-columns: 1fr 1fr;
-  }
 }
 
 .projects__title {
@@ -25,6 +18,21 @@
 }
 
 .projects__wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.projects__list {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1em;
+
+  @media all and (min-width: 480px){
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.project__item-wrapper {
   width: 245px;
   height: 150px;
   background-color: rgba(127, 255, 212, 0.383);

@@ -1,0 +1,15 @@
+.social-networks {
+  display: flex;
+  justify-content: space-around;
+
+  @media all and (min-width: 480px){
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+}
+
+.social-icon {
+  color: #dcdfe6;
+  font-size: 32px;
+}

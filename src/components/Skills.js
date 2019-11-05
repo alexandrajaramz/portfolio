@@ -8,6 +8,7 @@ const Skills = () => {
       <section className="main-skills">
         <div className="skills__anchor"></div>
         <h2 className="skills__title">Skills</h2>
+        <div className="wrapper">
         <ul className="skills__hardskills">
           <li className="hardskills-item html">HTML5</li>
           <li className="hardskills-item css ">CSS3</li>
@@ -20,6 +21,7 @@ const Skills = () => {
           <li className="hardskills-item git">GIT</li>
           <li className="hardskills-item agile">AGILE</li>
         </ul>
+        </div>
       </section>
     </React.Fragment>
   );

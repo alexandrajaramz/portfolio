@@ -4,18 +4,25 @@
 }
 
 .main-skills {
-  background-color: #92778b;
+  background-color: #8ca8b6;
   color: #dcdfe6;
   padding: 1.8em;
   min-height: 270px;
   font-family: 'Josefin Slab', serif;
   font-weight: bolder;
+  position: relative;
 }
 
 .skills__title {
   font-size: 36px;
   text-align: center;
   padding-bottom: 0.5em;
+}
+
+.wrapper {
+  position: absolute;
+  top: 30%;
+  left: 50%;
 }
 
 .skills__hardskills {
@@ -36,13 +43,13 @@
 
 .html {
   letter-spacing: -.06em;
-  transform: translateX(0.15em);
+  transform: translateX(-2.2em);
 }
 
 .css {
   letter-spacing: -.02em;
   transform:
-    translateX(3.2em)
+    translateX(0.9em)
     translateY(0.45em)
     rotate(90deg);
 }
@@ -51,7 +58,7 @@
   font-size: 1.2em;
   letter-spacing: -.05em;
   transform:
-    translateX(7.3em)
+    translateX(0.4em)
     translateY(1.2em)
     rotate(90deg);
 }
@@ -60,7 +67,7 @@
   font-size: 1.2em;
   letter-spacing: .02em;
   transform:
-    translateX(7.3em)
+    translateX(0.5em)
     translateY(2.5em)
     rotate(90deg);
 }
@@ -68,7 +75,7 @@
 .grid {
   font-size: 1.2em;
   transform:
-    translateX(7.25em)
+    translateX(0.4em)
     translateY(3.7em)
     rotate(90deg);
 }
@@ -77,14 +84,14 @@
   font-size: 3.2em;
   letter-spacing: -.05em;
   transform:
-    translateX(0.7em)
+    translateX(-1.8em)
     translateY(2em);
 }
 
 .react {
   font-size: 2.1em;
   transform:
-    translateX(1.2em)
+    translateX(-2.7em)
     translateY(2.35em)
 }
 
@@ -92,7 +99,7 @@
   font-size: 1.4em;
   letter-spacing: .15em;
   transform:
-    translateX(-0.5em)
+    translateX(-6.3em)
     translateY(4.5em)
     rotate(90deg);
 }
@@ -101,14 +108,14 @@
   font-size: 1.4em;
   letter-spacing: .15em;
   transform:
-    translateX(0.5em)
+    translateX(-5.2em)
     translateY(2.44em);
 }
 
 .agile {
   font-size: 1.4em;
-  letter-spacing: .08em;
+  letter-spacing: .1em;
   transform:
-    translateX(2.9em)
+    translateX(-2.8em)
     translateY(2.45em)
 }

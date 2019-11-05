@@ -4,11 +4,14 @@
 }
 
 .main-contact {
-  background-color: #92778b;
+  background-color: #8ca8b6;
   color: #dcdfe6;
   padding: 1.8em;
   font-family: 'Josefin Slab', serif;
   font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contact__title {
@@ -16,3 +19,40 @@
   text-align: center;
   padding-bottom: 0.5em;
 }
+
+.contact__phrase {
+  font-size: 24px;
+  text-align: center;
+  max-width: 20em;
+}
+
+.contact__info-wrapper {
+  margin-top: 4em;
+  padding-bottom: 1em;
+
+  @media all and (min-width: 480px){
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2em;
+  }
+
+}
+
+.contact__media-wrapper {
+  font-size: 22px;
+  padding-bottom: 2em;
+
+  @media all and (min-width: 480px){
+    padding-right: 3.5em;
+    padding-bottom: 0;
+  }
+
+  .media__location-wrapper {
+    margin-bottom: 1.2em;
+  }
+
+  .email-link {
+    color: #dcdfe6;
+  }
+}
+
