@@ -25,3 +25,7 @@
   text-transform: uppercase;
   letter-spacing: .05em;
 }
+
+.nav__list-item:hover {
+  transform:scale(1.2);
+}
