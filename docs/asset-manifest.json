@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "./static/css/main.7e6fed5f.chunk.css",
+    "main.js": "./static/js/main.89cd0617.chunk.js",
+    "main.js.map": "./static/js/main.89cd0617.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.c5db20d9.js",
+    "runtime-main.js.map": "./static/js/runtime-main.c5db20d9.js.map",
+    "static/js/2.18cd1832.chunk.js": "./static/js/2.18cd1832.chunk.js",
+    "static/js/2.18cd1832.chunk.js.map": "./static/js/2.18cd1832.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.11ea814a6fe57935df6ac5d252b2df03.js": "./precache-manifest.11ea814a6fe57935df6ac5d252b2df03.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.7e6fed5f.chunk.css.map": "./static/css/main.7e6fed5f.chunk.css.map",
+    "static/media/alex-1.png": "./static/media/alex-1.2821f5fc.png",
+    "static/media/anonymous-proxy.png": "./static/media/anonymous-proxy.b64b19d5.png",
+    "static/media/Hero.scss": "./static/media/bg.749a76df.jpg",
+    "static/media/down.png": "./static/media/down.9eec28d8.png",
+    "static/media/fivedrops.png": "./static/media/fivedrops.93f36507.png",
+    "static/media/profile-cards.png": "./static/media/profile-cards.8d65d743.png",
+    "static/media/refactoring-react.png": "./static/media/refactoring-react.1f4c2d8a.png",
+    "static/media/rick-morty.png": "./static/media/rick-morty.4d13233f.png",
+    "static/media/series-finder.png": "./static/media/series-finder.bf523edb.png",
+    "static/media/travel-wallet.png": "./static/media/travel-wallet.f30025fe.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c5db20d9.js",
+    "static/js/2.18cd1832.chunk.js",
+    "static/css/main.7e6fed5f.chunk.css",
+    "static/js/main.89cd0617.chunk.js"
+  ]
+}
