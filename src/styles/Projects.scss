@@ -1,11 +1,11 @@
 .projects__anchor {
-  margin-top: -32px;       
-  height: 32px; 
+  margin-top: -27px;       
+  height: 27px; 
 }
 
 .main-projects {
   background-color: #dcdfe6;
-  padding: 1.8em;
+  padding: 3em 1.8em 5em;
   font-family: 'Josefin Slab', serif;
   font-weight: 600;
   color: #664e60;
@@ -25,7 +25,7 @@
 .projects__list {
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 1em;
+  grid-gap: 2em;
 
   @media all and (min-width: 740px){
     grid-template-columns: 1fr 1fr;
@@ -53,7 +53,7 @@
   background-color: #8ca8b6;
 
   img {
-    opacity: 0.05;
+    opacity: 0.04;
   }
   .project__title {
     opacity: 1;
