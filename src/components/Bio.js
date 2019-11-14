@@ -1,6 +1,7 @@
 import React from 'react';
 import alex from '../images/alex-1.png';
 import '../styles/Bio.scss';
+import CV from '../images/EN-CV.pdf';
 
 const Bio = () => {
   return(
@@ -34,6 +35,7 @@ const Bio = () => {
           </p>
         </div>
         </div>
+        <a href={CV} target="_blank" rel="noopener noreferrer" className="about__resume"><p className="resume-text">See my resume</p></a>
       </div>
     </React.Fragment>
   );
